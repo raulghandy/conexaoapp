@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Conexão App",
+    "slug": "conexao-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B100F",
+    "locales": {
+      "pt": "./locales/pt.json"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleDevelopmentRegion": "pt_BR"
+      }
+    },
+    "android": {
+      "package": "br.edu.conexaoapp"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}
